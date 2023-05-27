@@ -2,6 +2,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const { Square, Circle, Triangle } = require('./lib/shapes');
+const generateLogo = require('./lib/generateLogo');
+
 
 // import function to generate SVG Logo
 
@@ -41,8 +43,8 @@ inquirer.prompt(questions)
     const text = res.text;
     const colorText = res.colorText;
     const colorShape = res.colorShape;
-
     // function to create SVG logo
+    generateLogo(shapeChoice, text, colorText, colorShape);
 })
 .catch((err) => console.log(err));
 
