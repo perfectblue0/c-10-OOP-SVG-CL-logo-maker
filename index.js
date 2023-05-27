@@ -3,13 +3,16 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const { Square, Circle, Triangle } = require('./lib/shapes');
 
+// import function to generate SVG Logo
+
+
 // Array of questions for user
 const questions = [
     {
         type: 'list',
-        name: 'shape',
+        name: 'shapeChoice',
         message: 'Choose a shape logo',
-        choices: ['Square', 'Circe', 'Triangle'],
+        choices: ['Square', 'Circle', 'Triangle'],
         validate: (res)=>{if(res){return true} else {return "please enter response to continue"}}
     },
     {
@@ -31,3 +34,15 @@ const questions = [
         validate: (res)=>{if(res){return true} else {return "please enter response to continue"}}
     }
 ];
+
+inquirer.prompt(questions)
+.then((res) => {
+    const shapeChoice = res.shapeChoice;
+    const text = res.text;
+    const colorText = res.colorText;
+    const colorShape = res.colorShape;
+
+    // function to create SVG logo
+})
+.catch((err) => console.log(err));
+
