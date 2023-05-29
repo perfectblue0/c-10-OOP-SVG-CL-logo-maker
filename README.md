@@ -34,12 +34,12 @@ Users must answer all questions otherwise they will get a message requesting the
  ![start](./lib/images/shot-3.png)  
 
 ![start](./lib/images/shot-4.png)  
-This application allows for users to test whether the classes in the application are functioning as well. The application uses Jest to test and can be used by using the command line to navigate to the “lib” folder. Once there, the user can type in “npm test” to test the classes. In the terminal, users will see 3 unit tests that “pass”.  
+This application allows for users to test whether the classes in the application are functioning as well. The application uses Jest to test and can be used by using the command-line to navigate to the “lib” folder. Once there, the user can type in “npm test” to test the classes. In the terminal, users will see 3 unit tests that “pass”.  
   
 ![start](./lib/images/shot-5.png)
 ## Credits
 
-I made my project with help Zoom recordings where Samantha Randolph, my professor, and David Fuka, a substitute, showed the class how to get started on the project. 
+I made my project with help from Zoom recordings where Samantha Randolph, my professor, and David Fuka, a substitute, showed the class how to get started on the project. 
 
 ## License
 Please refer to the repo.
