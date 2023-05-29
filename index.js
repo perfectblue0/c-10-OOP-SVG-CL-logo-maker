@@ -43,7 +43,7 @@ inquirer.prompt(questions)
     const text = res.text;
     const colorText = res.colorText;
     const colorShape = res.colorShape;
-    // function to create SVG logo
+    // function to create SVG logo and file
     generateLogo(shapeChoice, text, colorText, colorShape);
 })
 .catch((err) => console.log(err));
