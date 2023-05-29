@@ -15,20 +15,31 @@ To utilize the application, clone the repo to a folder or save it to your deskto
 
 ## Usage
 
-### For a video preview of the basic functionality of this application, visit this link:
+### For a video preview of the basic functionality of this application, visit this link:  
+https://drive.google.com/file/d/1av3nQPPxi52AMB7x44S0WF8rUQM7pi5M/view
 
-### My Repo
-https://github.com/perfectblue0/c-10-OOP-SVG-CL-logo-maker
+### My Repo:  
+https://github.com/perfectblue0/c-10-OOP-SVG-CL-logo-maker  
 
-This application is intended to be used to generate a logo and have it saved as an SVG file without having to hire a graphic designer. Follow the aforementioned instructions and then, in the command-line, type “npm start” and then press “enter” on your keyboard. Users will then see a question to which they should type a response and press “enter” on their keyboard. Users must answer all questions otherwise they will get a message requesting they type in an answer. To answer the question about which shape the user wants, use the up and down arrows to highlight the shape, and press enter to select the shape. Once the user has answered the last question, they will see a message saying “Generated logo.svg” and will be able to see a new file called “logo.svg” below the “LICENSE” file. This application allows for users to test whether the classes in the application are functioning as well. The application uses Jest to test and can be used by using the command line to navigate to the “lib” folder. Once there, the user can type in “npm test” to test the classes. In the terminal, users will see 3 unit tests that “pass”.
+This application is intended to be used to generate a neat logo and have it saved as an SVG file without having to hire a graphic designer. Follow the aforementioned instructions and then, in the command-line, type “npm start” and then press “enter” on your keyboard. Users will then see a question to which they should type a response and press “enter” on their keyboard.  
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![start](./lib/images/shot-1.png)  
 
+Users must answer all questions otherwise they will get a message requesting they type in an answer.  
+  
+![start](./lib/images/shot-2.png)  
+
+ To answer the question about which shape the user wants, use the up and down arrows to highlight the shape, and press enter to select the shape. Once the user has answered the last question, they will see a message saying “Generated logo.svg” and will be able to see a new file called “logo.svg” below the “LICENSE” file.  
+
+ ![start](./lib/images/shot-3.png)  
+
+![start](./lib/images/shot-4.png)  
+This application allows for users to test whether the classes in the application are functioning as well. The application uses Jest to test and can be used by using the command line to navigate to the “lib” folder. Once there, the user can type in “npm test” to test the classes. In the terminal, users will see 3 unit tests that “pass”.  
+  
+![start](./lib/images/shot-5.png)
 ## Credits
 
-I made my project with help from the Zoom recording where Samantha Randolph, my professor, and David Fuka, a substitute, showed the class how to get started. 
+I made my project with help Zoom recordings where Samantha Randolph, my professor, and David Fuka, a substitute, showed the class how to get started on the project. 
 
 ## License
 Please refer to the repo.
